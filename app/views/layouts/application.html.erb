@@ -8,9 +8,19 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <nav class="navbar-inverse">
+      <div class="container-fluid">
+        <ul class="nav">
+          <li class="active"><a href="/pages/one">Page one</a></li>
+          <li><a href="/pages/two">Page two</a></li>
+          <li><a href="/pages/three">Page three</a></li>
+        </ul>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
