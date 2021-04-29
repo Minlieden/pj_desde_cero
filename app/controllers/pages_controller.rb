@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def three
   end
+
+  def error
+  end
 end
